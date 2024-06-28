@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one{
+    gap: 20px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px 20px;
+    grid-template-rows: 500px 500px;
+  
+}
+/* .four{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    
+} */
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px 20px;
+    grid-template-rows: 500px 500px;
+  
+}
